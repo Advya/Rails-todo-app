@@ -8,4 +8,8 @@ class Task < ApplicationRecord
         self.completed = true
         save
     end
+    def update_attributes params
+        
+        save
+    end
 end

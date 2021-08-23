@@ -6,6 +6,6 @@
      <% end %>
     <hr />
     <% @completed_tasks.each do |task| %>
-        <s><%= render partial: 'task', object: task %></s>
+        <%= render partial: 'task', object: task %>
     <% end %>
 </div>
